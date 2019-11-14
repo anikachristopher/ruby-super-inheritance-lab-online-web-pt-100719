@@ -16,7 +16,7 @@ class ChattyStudent < Student
     super
     super
     super
-    puts @raise_hand 
+    print @raise_hand 
   end
     
  end
