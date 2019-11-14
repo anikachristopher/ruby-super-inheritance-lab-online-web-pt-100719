@@ -16,7 +16,7 @@ class ChattyStudent < Student
     super
     super
     super
-    print @raise_hand 
+    return @raise_hand 
   end
     
  end
