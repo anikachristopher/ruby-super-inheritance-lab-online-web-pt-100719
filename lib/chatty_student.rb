@@ -6,8 +6,8 @@ class ChattyStudent < Student
   end
   
   def raise_hand
-    super
-    return @raise_hand * 10 
+    super * 10
+    puts @raise_hand 
   end
     
  end
